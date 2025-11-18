@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contato — TaguaBurger</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/componentes.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <main>  
+    <div id="header-container"></div>
+    <div class="container contato-page">
+    <h1>Fale conosco</h1>
+    <div class="contato-grid">
+      <div class="contato-info">
+        <h2>Endereço</h2>
+        <p>QNG 32 Lote 01 Loja 01 — Taguatinga Norte, Brasília - DF</p>
+        <h2>Horário</h2>
+        <p>Diariamente: 11:30 — 01:00</p>
+        <h2>WhatsApp</h2>
+        <p><a href="https://wa.me/556130446178?text=Olá!%20Gostaria%20de%20mais%20informações">55 61 3044-6178</a></p>
+        <h2>Redes</h2>
+        <p><a href="https://www.instagram.com/taguaburguer/">@taguaburguer</a></p>
+      </div>
+      <div class="contato-form">
+        <h2>Formulário rápido</h2>
+        <form action="https://formspree.io/f/mkgknvlv" method="POST">
+          <label>Nome<input type="text" name="name" required></label>
+          <label>Telefone<input type="text" name="phone" required></label>
+          <label>Mensagem<textarea name="message" rows="4" required></textarea></label>
+          <button class="btn btn-cheio" type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div id="footer-container"></div>
+  </main>
+
+  <script src="js/main.js"></script>
+  <script src="js/componentes.js"></script>
+<script>
+  carregarComponente('componentes/header.html', '#header-container');
+  carregarComponente('componentes/footer.html', '#footer-container');
+</script>
+</body>
+</html>

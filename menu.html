@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cardápio — TaguaBurger</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/componentes.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <main>
+    <div id="header-container"></div>
+    <div class="container">
+    <section class="menu-list">
+      <h1>Cardápio</h1>
+
+      <h2>Burgers</h2>
+      <ul class="menu-items">
+        <li>
+          <div class="mi-left">
+            <h3>Classic Tagua — R$ 24,90</h3>
+            <p>Carne 180g, queijo prato, alface, tomate e molho especial.</p>
+          </div>
+          <div class="mi-right">
+            <a class="btn-small">Pedir</a>
+          </div>
+            <div class="mensagem"></div>
+        </li>
+        <li>
+          <div class="mi-left">
+            <h3>Cheese Double — R$ 32,90</h3>
+            <p>Dupla carne 140g, cheddar, cebola caramelizada.</p>
+          </div>
+         <div class="mi-right">
+            <a class="btn-small">Pedir</a>
+          </div>
+            <div class="mensagem"></div>
+        </li>
+        <li>
+          <div class="mi-left">
+            <h3>Veggie Crunch — R$ 22,90</h3>
+            <p>Hambúrguer vegetal, rúcula, maionese de ervas.</p>
+          </div>
+          <div class="mi-right">
+            <a class="btn-small">Pedir</a>
+          </div>
+            <div class="mensagem"></div>
+        </li>
+      </ul>
+
+      <h2>Combos</h2>
+      <ul class="menu-items">
+        <li>
+          <div class="mi-left">
+            <h3>Classic + Batata média + Bebida — R$ 34,90</h3>
+            <p>Combo mais pedido.</p>
+          </div>
+          <div class="mi-right">
+            <a class="btn-small">Pedir</a>
+          </div>
+            <div class="mensagem"></div>
+        </li>
+        <li>
+          <div class="mi-left">
+            <h3>Double Feast + Batata grande + Bebida — R$ 44,90</h3>
+            <p>Para os mais famintos.</p>
+          </div>
+        <div class="mi-right">
+            <a class="btn-small">Pedir</a>
+          </div>
+            <div class="mensagem"></div>
+        </li>
+      </ul>
+
+      <h2>Porções e Acompanhamentos</h2>
+      <ul class="menu-items">
+        <li>
+          <div class="mi-left">
+            <h3>Batata rústica média — R$ 12,90</h3>
+          </div>
+          <div class="mi-right">
+            <a class="btn-small">Pedir</a>
+          </div>
+            <div class="mensagem"></div>
+        </li>
+        <li>
+          <div class="mi-left">
+            <h3>Anéis de cebola — R$ 10,90</h3>
+          </div>
+          <div class="mi-right">
+            <a class="btn-small">Pedir</a>
+          </div>
+            <div class="mensagem"></div>
+        </li>
+      </ul>
+
+      <h2>Bebidas</h2>
+      <ul class="menu-items">
+        <li>
+          <div class="mi-left">
+            <h3>Refrigerante lata — R$ 5,00</h3>
+          </div>
+          <div class="mi-right">
+            <a class="btn-small">Pedir</a>
+          </div>
+            <div class="mensagem"></div>
+        </li>
+      </ul>
+
+    </section>
+  </div>
+  <div id="footer-container"></div>
+  </main>
+
+   <script src="js/main.js"></script>
+  <script src="js/componentes.js"></script>
+<script>
+  carregarComponente('componentes/header.html', '#header-container');
+  carregarComponente('componentes/footer.html', '#footer-container');
+</script>
+</body>
+</html>

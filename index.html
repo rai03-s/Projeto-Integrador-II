@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TaguaBurger — Hamburgueria Artesanal</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/componentes.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <main>
+    <div id="header-container"></div>
+    <section class="mainc">
+      <div class="container mainc-inner">
+        <div class="mainc-text">
+          <h1>O sabor de Taguatinga em cada mordida</h1>
+          <p>Hambúrgueres artesanais, batatas rústicas e entregas rápidas. Aberto todos os dias, das 11:30 às 01:00.</p>
+          <div class="mainc-actions">
+            <a class="btn btn-cheio" href="https://wa.me/556130446178?text=Olá!%20Gostaria%20de%20mais%20informações">Peça agora</a>
+            <a class="btn btn-vazio" href="menu.html">Ver cardápio</a>
+          </div>
+        </div>
+        <div class="mainc-image">
+          <img src="img/imgprin.png" alt="Hambúrguer suculento - TaguaBurger">
+        </div>
+      </div>
+    </section>
+
+    <section class="especial container">
+      <article>
+        <h3>Entrega rápida</h3>
+        <p>Parcerias com delivery e pedido pelo WhatsApp.</p>
+      </article>
+      <article>
+        <h3>Ingredientes selecionados</h3>
+        <p>Carne e pães frescos, molhos preparados na casa.</p>
+      </article>
+      <article>
+        <h3>Feito em Taguatinga</h3>
+        <p>Endereço: QNG 32 Lote 01 Loja 01 — Taguatinga Norte.</p>
+      </article>
+    </section>
+
+    <section class="menu-preview container">
+      <h2>Mais pedidos</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="img/burger1.jpg" alt="Hamburguer Clássico">
+          <h4>Classic Tagua</h4>
+          <p>Carne 180g, queijo, alface, tomate e molho especial.</p>
+          <p class="preco">R$ 24,90</p>
+        </div>
+        <div class="card">
+          <img src="img/burger3.jpg" alt="CheeseBurger">
+          <h4>Cheese Double</h4>
+          <p>Dupla carne, queijo derretido e cebola caramelizada.</p>
+          <p class="preco">R$ 32,90</p>
+        </div>
+        <div class="card">
+          <img src="img/burger2.jpg" alt="Hamburguer vegetariano">
+          <h4>Veggie Crunch</h4>
+          <p>Hambúrguer de grão-de-bico, salada e molho de ervas.</p>
+          <p class="preco">R$ 22,90</p>
+        </div>
+      </div>
+      <div class="center">
+        <a class="btn btn-vazio" href="menu.html">Ver todo o cardápio</a>
+      </div>
+    </section>
+
+    <section class="sobre-cta">
+      <div class="container sobre-inner">
+        <div>
+          <h2>Por que escolher o TaguaBurger?</h2>
+          <p>Combinação entre tradição local e receitas autorais. Ideal para quem quer uma refeição rápida e cheia de sabor.</p>
+        </div>
+        <div>
+          <a class="btn btn-cheio" href="https://taguaburguer.facitydelivery.com.br">Fazer pedido pelo site</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="avaliacoes container">
+      <h2>O que nossos clientes dizem</h2>
+      <blockquote>"Melhor hambúrguer de Taguatinga! Atendimento rápido e sabor incrível." — Maria S.</blockquote>
+      <blockquote>"Preço justo e porção generosa." — João P.</blockquote>
+    </section>
+
+    <section class="lugar-contato container">
+      <div class="lugar">
+        <h3>Onde nos encontrar</h3>
+        <p>QNG 32 Lote 01 Loja 01 — Taguatinga Norte, Brasília - DF</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.0738823982333!2d-48.071396425694836!3d-15.80005782309293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3345d963a3db%3A0x18d6b3fa988c6c91!2sTagua%20Burger!5e0!3m2!1spt-BR!2sbr!4v1763419927897!5m2!1spt-BR!2sbr" 
+        width="600" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+
+        </iframe>
+      </div>
+      <div class="contato">
+        <h3>Peça agora</h3>
+        <p>WhatsApp: <a href="https://wa.me/556130446178">55 61 3044-6178</a></p>
+        <p>Instagram: <a href="https://www.instagram.com/taguaburguer/">@taguaburguer</a></p>
+      </div>
+    </section>
+
+    <div id="footer-container"></div>
+
+  </main>
+
+  <script src="js/main.js"></script>
+  <script src="js/componentes.js"></script>
+<script>
+  carregarComponente('componentes/header.html', '#header-container');
+  carregarComponente('componentes/footer.html', '#footer-container');
+</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+@media(max-width:900px){
+  .mainc-inner{grid-template-columns:1fr}
+  .nav{display:none}
+  .especial{grid-template-columns:1fr}
+  .cards{grid-template-columns:1fr 1fr}
+  .lugar-contato{grid-template-columns:1fr}
+}
+@media(max-width:480px){
+  .cards{grid-template-columns:1fr}
+  .card img{height:180px}
+}
