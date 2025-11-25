@@ -8,4 +8,20 @@
 @media(max-width:480px){
   .cards{grid-template-columns:1fr}
   .card img{height:180px}
+
+}
+
+@media (max-width: 375px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  .card img {
+    height: 160px;
+  }
+  body {
+    font-size: 14px;
+  }
+  .mainc-inner, .especial, .lugar-contato {
+    grid-template-columns: 1fr;
+  }
 }
