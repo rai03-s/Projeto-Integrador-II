@@ -27,8 +27,9 @@ Parte I: Planejamento, prototipagem, desenvolvimento e publicação no GitHub;
 Parte II: Modularização do código, ajustes de acessibilidade e responsividade, integração, JavaScript;
 Parte III: Publicação e testes.
 
-GitHubPages:
-
+Acesso ao site (GitHubPages): https://rai03-s.github.io/Projeto-Integrador-II/
+<img width="1366" height="694" alt="telaInicial" src="https://github.com/user-attachments/assets/bea21787-993b-4c76-b270-bf8c46631a2e" />
+Publicação: 24/11/2025
 
 
 Elementos repetidos: Header, footer.
