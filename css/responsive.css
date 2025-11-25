@@ -7,7 +7,7 @@
 }
 @media(max-width:480px){
   .cards{grid-template-columns:1fr}
-  .card img{height:180px
+  .card img{height:180px}
 }
 @media (max-width: 375px) {
   .cards {
@@ -37,3 +37,4 @@
     grid-template-columns: 1fr;
   }
 }
+
